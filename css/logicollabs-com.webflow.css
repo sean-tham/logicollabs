@@ -1950,6 +1950,12 @@ blockquote {
   display: flex;
 }
 
+.image-4 {
+  height: 2.5rem;
+  width: auto;
+  object-fit: contain;
+}
+
 .right-navbar-content {
   grid-column-gap: .8rem;
   grid-row-gap: .8rem;
