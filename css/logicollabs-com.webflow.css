@@ -2570,8 +2570,15 @@ blockquote {
 }
 
 .metrics-text-size-extra-large {
-  font-size: var(--heading--h2);
-  font-weight: 900;
+  font-size: 64px;
+  line-height: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .metrics-text-size-extra-large {
+    font-size: 192px;  /* 3x the original size (64px * 3) */
+    line-height: 1;
+  }
 }
 
 .metrics-text-size-extra-large.text-weight-medium {
